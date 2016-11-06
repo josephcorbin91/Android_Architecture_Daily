@@ -21,6 +21,9 @@ android {
 }
 
 dependencies {
+    compile 'com.github.navasmdc:MaterialDesign:1.5@aar'
+    compile 'net.steamcrafted:materialiconlib:1.1.1'
+    compile 'com.github.florent37:materialtextfield:1.0.5'
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile files('libs/universal-image-loader-1.9.5.jar')
